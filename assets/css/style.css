@@ -179,7 +179,7 @@ img{
 }
 
 .blog_post_left {
-    width: 76px;
+    width: 41px;
     height: 41px;
     line-height: 40px;
     background-image: url(../img/blog_date_box.png);
@@ -292,3 +292,43 @@ h3.testimonial_name {
     font-size: 32px;
     color: #aaaaaa;
 }
+
+/* Service Template */
+
+.service_content_wrapper {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.page_hero_img{
+    padding: 30px 0px;
+}
+
+.image_slider_selector{
+    position: relative;
+}
+
+.image_slider_selector .slick-arrow {
+    background: #4a4a4a;
+    position: absolute;
+    top: 90%;
+    height: 22px;
+    width: 30px;
+    border-radius: 4px;
+  }
+  .image_slider_selector .slick-prev.slick-arrow {
+    right: 0px;
+    z-index: 9;
+    left: 75%;
+  }
+
+  .image_slider_selector .slick-next.slick-arrow {
+    right: 10px;
+    z-index: 9;
+  }
+  
+  .image_slider_selector .slick-prev:before,
+  .image_slider_selector .slick-next:before
+  {
+      font-size: 15px;
+  }
